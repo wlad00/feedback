@@ -1,0 +1,582 @@
+# Webalizer V2.21-02 Incremental Data - 01/08/2018 21:18:31
+2018 1 8 21 18 31
+10252 9639 12 187 13 10 173644787 3166 40 3
+2 2 905 1 8
+160 157 2961735 7 53 5
+0 0 0 0 0 0
+2308 2148 34791988 5 755 8
+3127 2908 49080813 3 979 9
+2276 2136 47330860 4 508 6
+2 1 4953 1 1 1
+1853 1787 32899716 2 641 5
+526 502 6574722 2 229 6
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+39 38 1160677 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+45 42 1168120 6
+2 1 16583 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+935 885 15998370 268
+877 826 11223432 311
+2424 2324 50531281 584
+785 724 11421420 309
+1235 1156 20940943 358
+394 354 960438 243
+958 887 15945026 301
+722 686 10998624 290
+423 402 7346556 140
+736 681 13189410 195
+241 230 3309249 79
+170 162 3530255 43
+2 1 16583 1
+0 0 0 0
+264 240 5887820 35
+0
+0
+0
+9639
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+6
+0
+0
+559
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+48
+0
+0
+0
+0
+0
+# -urls- 
+/controllers/alert.controller.js
+0 140 0 157217 0 0
+/panel/events/getEventQuestionaries/10
+0 2 0 484 0 0
+/panel/events/getEventQuestionaries/13
+0 2 0 484 0 0
+/panel/events/getEventQuestionaries/14
+0 6 0 1452 0 0
+/imports/vfs_fonts.js
+0 137 0 67050398 0 0
+/phpmyadmin/db_designer.php
+0 6 0 31697 0 0
+/imports/checklist-model.js
+0 124 0 227102 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/Header_Linked.png
+0 1 0 374 0 0
+/panel/events/getEventQuestionaries/21
+0 3 0 1097 0 0
+/
+0 282 0 1037086 24 6
+/phpmyadmin/themes/pmahomme/img/s_collapseall.png
+0 2 0 878 0 0
+/phpmyadmin/version_check.php
+0 3 0 2028 0 0
+/panel/events/getList
+0 127 0 49180 1 0
+/phpmyadmin/themes/pmahomme/img/pmd/toggle_lines.png
+0 1 0 731 0 0
+/phpmyadmin/themes/pmahomme/img/spacer.png
+0 1 0 352 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/2rightarrow_m.png
+0 1 0 969 0 0
+/templates/tableDiklaModal.html
+0 8 0 4772 0 1
+/resources/mdl/mdl-date/mdl-date-textfield.min.js.map
+0 53 0 109831 0 0
+/assets/styles/references.css
+0 172 0 139721 0 0
+/templates/companies.html
+0 43 0 37368 0 0
+/panel/common/getAnalysisDrillDownDikla/
+0 47 0 45198 0 2
+/controllers/project.controller.js
+0 143 0 211639 0 0
+/phpmyadmin/js/codemirror/addon/lint/lint.css
+0 2 0 3202 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_highlight-soft_75_cccccc_1x100.png
+0 2 0 786 0 0
+/templates/questionary.html
+0 114 0 195748 0 1
+/phpmyadmin/themes/dot.gif
+0 2 0 622 0 0
+/phpmyadmin/db_sql_autocomplete.php
+0 7 0 23795 0 0
+/phpmyadmin/themes/pmahomme/img/ajax_clock_small.gif
+0 2 0 4162 0 0
+/panel/admin/getProjectsByIdCustomer/15
+0 2 0 3308 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/downarrow2.png
+0 1 0 1042 0 0
+/panel/lecturers/updateLector
+0 3 0 1395 0 0
+/app.js
+0 150 0 446147 0 0
+/panel/common/getReport3/6/xls
+0 19 0 50592 0 0
+/services/modalService.js
+0 137 0 107676 0 0
+/assets/styles/attachExcelAnimation.css
+0 139 0 94794 0 0
+/panel/answers/getAnswers/115
+0 8 0 3072 0 0
+/phpmyadmin/tbl_addfield.php
+0 4 0 24983 0 0
+/phpmyadmin/tbl_create.php
+0 5 0 57320 0 0
+/panel/answers/getAnswers/119
+0 2 0 484 0 0
+/phpmyadmin/
+0 395 0 905526 2 3
+/phpmyadmin/tbl_sql.php
+0 8 0 47825 0 0
+/panel/admin/getProjectsByIdCustomer/42
+0 2 0 3050 0 0
+/templates/diagrams.html
+0 28 0 47214 0 0
+/panel/admin/getCustomers
+0 251 0 137549 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/exec_small.png
+0 1 0 430 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-icons_888888_256x240.png
+0 2 0 9070 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/downarrow1.png
+0 1 0 1029 0 0
+/assets/styles/statsTableStyle.css
+0 139 0 137328 0 0
+/controllers/questions.controller.js
+0 215 0 342597 0 0
+/phpmyadmin/browse_foreigners.php
+0 1 0 3787 0 0
+/controllers/companies.controller.js
+0 140 0 160296 0 0
+/controllers/charts.controller.js
+0 152 0 1527348 0 0
+/phpmyadmin/themes/pmahomme/img/s_sortable.png
+0 2 0 1006 0 0
+/phpmyadmin/tbl_change.php
+0 6 0 46396 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_75_dadada_1x400.png
+0 2 0 792 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/Field_small_char.png
+0 1 0 423 0 0
+/controllers/questionary.controller.js
+0 167 0 294652 0 0
+/phpmyadmin/themes/pmahomme/img/b_key.png
+0 2 0 1183 0 0
+/templates/authorization.html
+0 58 0 61196 1 1
+/phpmyadmin/themes/pmahomme/img/pmd/Field_small_date.png
+0 1 0 425 0 0
+/phpmyadmin/themes/pmahomme/img/left_nav_bg.png
+0 2 0 1054 0 0
+/commonn/DialogController.js
+0 137 0 99867 0 0
+/panel/common/getQuestionary/69
+0 170 0 292833 4 0
+/phpmyadmin/themes/pmahomme/img/pmd/FieldKey_small.png
+0 1 0 498 0 0
+/phpmyadmin/themes/pmahomme/img/b_calendar.png
+0 2 0 1818 0 0
+/templates/diagramsPageStat.html
+0 6 0 3084 0 1
+/panel/common/login
+0 251 0 66615 1 0
+/phpmyadmin/themes/pmahomme/img/pmd/Header.png
+0 1 0 391 0 0
+/assets/styles/lecturers.css
+0 22 0 15947 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/page_add.png
+0 1 0 1061 0 0
+/phpmyadmin/js/messages.php
+0 8 0 95346 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/anchor.png
+0 1 0 793 0 0
+/panel/lecturers/getList
+0 12 0 4835 0 0
+/assets/styles/table.css
+0 139 0 92294 0 0
+/panel/lecturers/deleteLector/29
+0 1 0 468 0 0
+/multiLanguage/lang_he.json
+0 156 0 260494 0 0
+/panel/lecturers/deleteLector/33
+0 1 0 456 0 0
+/panel/lecturers/deleteLector/34
+0 1 0 446 0 0
+/panel/lecturers/deleteLector/37
+0 1 0 439 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/save_as.png
+0 1 0 729 0 0
+/phpmyadmin/navigation.php
+0 25 0 79159 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/page_delete.png
+0 1 0 1077 0 0
+/assets/styles/loginLoaderProcessBar.css
+0 139 0 85760 0 0
+/phpmyadmin/js/get_scripts.js.php
+0 50 0 3512015 0 0
+/assets/styles/style.css
+0 139 0 320230 0 0
+/panel/lecturers/deleteLector/61
+0 1 0 425 0 0
+/panel/lecturers/deleteLector/62
+0 1 0 416 0 0
+/panel/events/removeQuestionaryFromEvent
+0 7 0 1630 0 0
+/resources/mdl/mdl-date/mdl-date-textfield.min.css
+0 139 0 182906 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_65_ffffff_1x400.png
+0 2 0 684 0 0
+/panel/lecturers/deleteLector/74
+0 1 0 409 0 0
+/panel/lecturers/deleteLector/75
+0 1 0 396 0 0
+/panel/lecturers/deleteLector/76
+0 1 0 478 0 0
+/phpmyadmin/error_report.php
+0 1 0 2072 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/help.png
+0 1 0 984 0 0
+/controllers/auth.controller.js
+0 140 0 171777 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/Field_small.png
+0 1 0 545 0 0
+/phpmyadmin/js/codemirror/lib/codemirror.css
+0 2 0 5574 0 0
+/templates/createCompany.html
+0 2 0 1686 0 0
+/assets/styles/bootstrap.min.css
+0 144 0 2892102 0 0
+/imports/jspdf.js
+0 140 0 10463319 0 0
+/panel/admin/getProjectsByIdCustomer/1
+0 147 0 113979 1 1
+/favicon.ico
+0 159 0 106394 0 0
+/phpmyadmin/themes/pmahomme/img/s_fulltext.png
+0 2 0 926 0 0
+/templates/diagramsTimeLinePage.html
+0 6 0 3036 0 0
+/phpmyadmin/js/whitelist.php
+0 8 0 7845 0 0
+/panel/events/getEventQuestionaries/1
+0 30 0 19327 0 0
+/panel/events/addQuestionaryToEvent
+0 11 0 2561 0 0
+/panel/events/getEventQuestionaries/7
+0 35 0 24273 0 1
+/phpmyadmin/themes/pmahomme/img/pmd/export.png
+0 1 0 1154 0 0
+/resources/c3/c3.min.css
+0 139 0 156486 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/relation.png
+0 1 0 563 0 0
+/panel/events/getEventQuestionaries/undefined
+0 2 0 482 0 0
+/templates/events.html
+0 77 0 91873 0 0
+/templates/lecturers.html
+0 5 0 4658 0 0
+/resources/mdl/material.js
+0 137 0 3077563 0 0
+/routing.js
+0 159 0 138744 0 0
+/resources/mdl/material.css
+0 139 0 4584451 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/exec.png
+0 1 0 1066 0 0
+/assets/styles/bootloader.css
+0 139 0 151928 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/downarrow2_m.png
+0 1 0 981 0 0
+/controllers/answers.controller.js
+0 159 0 214676 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/ang_direct.png
+0 1 0 949 0 0
+/panel/events/update
+0 25 0 10005 0 0
+/controllers/lecturers.controller.js
+0 143 0 207779 0 0
+/phpmyadmin/tbl_operations.php
+0 3 0 23573 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/grid.png
+0 1 0 959 0 0
+/phpmyadmin/themes/pmahomme/img/col_drop.png
+0 2 0 803 0 0
+/phpmyadmin/tbl_select.php
+0 44 0 251038 0 0
+/imports/html2canvas.js
+0 137 0 4379610 0 0
+/panel/questions/getQuestions/1
+0 3 0 3318 0 0
+/panel/questions/getQuestions/3
+0 1 0 754 0 0
+/panel/questions/getQuestions/6
+0 45 0 51225 1 0
+/panel/questions/getQuestions/7
+0 9 0 4233 0 0
+/resources/c3/c3.min.js
+0 137 0 5751939 0 0
+/phpmyadmin/lint.php
+0 33 0 21289 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/resize.png
+0 1 0 420 0 0
+/phpmyadmin/themes/pmahomme/jquery/jquery-ui.css
+0 2 0 17640 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/table.png
+0 1 0 432 0 0
+/panel/questions/getQuestions/15
+0 95 0 46168 0 2
+/panel/questions/getQuestions/16
+0 92 0 42592 0 3
+/panel/questionary/getList/2
+0 1 0 457 0 0
+/resources/mdl/mdl-date/mdl-date-textfield.min.js
+0 137 0 211522 0 0
+/phpmyadmin/themes/pmahomme/img/sprites.png
+0 2 0 32074 0 0
+/services/HelperService.js
+0 141 0 86714 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/page_edit.png
+0 1 0 1117 0 0
+/phpmyadmin/js/get_image.js.php
+0 8 0 18778 0 0
+/phpmyadmin/js/codemirror/addon/hint/show-hint.css
+0 2 0 1314 0 0
+/phpmyadmin/tbl_replace.php
+0 7 0 33153 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/display_field.png
+0 1 0 955 0 0
+/phpmyadmin/sql.php
+0 160 0 1826739 0 0
+/services/chartDataService.js
+0 143 0 194912 0 0
+/phpmyadmin/themes/pmahomme/img/col_pointer.png
+0 2 0 765 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/Field_small_int.png
+0 1 0 414 0 0
+/phpmyadmin/tbl_indexes.php
+0 6 0 22009 0 0
+/phpmyadmin/themes/pmahomme/css/printview.css
+0 2 0 2714 0 0
+/imports/FileSaver.js
+0 137 0 373044 0 0
+/panel/common/getReport3/6/
+0 3 0 35705 0 0
+/templates/createProject.html
+0 1 0 983 0 0
+/phpmyadmin/import.php
+0 11 0 54655 0 0
+/panel/questionary/updateQuestionary
+0 5 0 3653 0 0
+/assets/img/like.svg
+0 28 0 41236 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-icons_454545_256x240.png
+0 1 0 4534 0 0
+/phpmyadmin/phpmyadmin.css.php
+0 8 0 165284 0 0
+/panel/questionary/getList
+0 213 0 156919 0 1
+/phpmyadmin/themes/pmahomme/img/pmd/viewInFullscreen.png
+0 1 0 742 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/small_tab.png
+0 1 0 446 0 0
+/panel/questionary/getlist/
+0 1 0 738 0 0
+/phpmyadmin/tbl_structure.php
+0 21 0 148943 0 0
+/panel/common/getGeneralIndicatorsDikla/6
+0 6 0 2688 0 0
+/panel/common/getAnalysis/6
+0 297 0 1848075 3 7
+/assets/styles/paletteBlueGreyMD.css
+0 139 0 82826 0 0
+/templates/projects.html
+0 29 0 53369 0 0
+/phpmyadmin/themes/pmahomme/img/logo_left.png
+0 2 0 6776 0 0
+/phpmyadmin/favicon.ico
+0 3 0 28920 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-icons_222222_256x240.png
+0 2 0 9069 0 0
+/phpmyadmin/themes/pmahomme/img/arrow_ltr.png
+0 2 0 817 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/bottom.png
+0 1 0 1004 0 0
+/resources/mdl/mdl-date/mdl-date-textfield.min.css.map
+0 54 0 719827 0 0
+/panel/questions/updateQuestions
+0 96 0 65775 2 0
+/assets/styles/auth.css
+0 159 0 236135 0 0
+/controllers/events.controller.js
+0 191 0 308404 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/reload.png
+0 1 0 1144 0 0
+/phpmyadmin/themes/pmahomme/jquery/images/ui-bg_glass_75_e6e6e6_1x400.png
+0 2 0 782 0 0
+/phpmyadmin/db_structure.php
+0 10 0 98060 0 0
+/imports/pdfmake.min.js
+0 137 0 54186371 0 0
+/phpmyadmin/themes/pmahomme/img/pmd/save.png
+0 1 0 679 0 0
+# End Of Table - urls
+# -sites- (monthly)
+82.81.249.37
+0 3841 3640 60624099 8 1515345300
+/templates/diagramsPageStat.html
+178.140.114.174
+0 37 37 1155708 1 1514806824
+/
+141.8.132.19
+0 1 1 684 0 0
+-
+54.173.35.129
+0 11 6 56476 4 1515446311
+/
+178.154.171.45
+0 24 20 457040 4 1515248449
+/
+5.29.3.20
+0 4471 4155 85612822 6 1515170118
+/panel/questionary/getList
+77.138.251.209
+0 1731 1644 21545279 13 1515438026
+/panel/common/getAnalysis/6
+176.195.84.171
+0 37 37 1155724 1 1514938768
+/
+5.255.253.19
+0 2 2 73956 0 0
+-
+176.77.4.104
+0 39 39 1159414 1 1515327332
+/
+95.108.181.46
+0 19 19 644322 1 1514781995
+/templates/authorization.html
+5.228.154.132
+0 39 39 1159263 1 1515022128
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+54.173.35.129
+0 7 4 23535 2 1515446311
+/
+77.138.251.209
+0 519 498 6551187 4 1515438026
+/panel/common/getAnalysis/6
+# End Of Table - sites (daily)
+# -referrers- 
+- (Direct Request)
+0 2026
+http://helpdesk.panel4all.net/phpmyadmin/phpmyadmin.css.php
+0 13
+http://yandex.ru/clck/jsredir
+0 4
+http://helpdesk.panel4all.net/
+0 8023
+http://helpdesk.panel4all.net/panel/common/getReport3/6/
+0 3
+http://helpdesk.panel4all.net/panel/common/getAnalysis/6
+0 99
+http://helpdesk.panel4all.net/panel/common/getReport3/6/xls
+0 8
+http://helpdesk.panel4all.net/assets/styles/style.css
+0 28
+http://helpdesk.panel4all.net/phpmyadmin/themes/pmahomme/jquery/jquery-ui.css
+0 13
+http://helpdesk.panel4all.net/panel/common/getQuestionary/69
+0 14
+http://helpdesk.panel4all.net/panel/common/getAnalysisDrillDownDikla/
+0 18
+http://helpdesk.panel4all.net/panel/events/getEventQuestionaries/7
+0 2
+http://helpdesk.panel4all.net/panel/i/ldj26013
+0 1
+# End Of Table - referrers
+# -agents- 
+Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)
+0 7
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; MASPJS)
+0 37
+Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; WOW64; Trident/4.0; SLCC2; .NET CLR 2.0.50727; .NET CLR 3.5.30729; .NET CL
+0 39
+Mozilla/5.0 (iPhone; CPU iPhone OS 8_1 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B411 Safar
+0 39
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0; Touch; MAARJS)
+0 37
+Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0; MAAU; MAAU)
+0 39
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36
+0 153
+Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+0 9620
+ia_archiver
+0 11
+Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36
+0 270
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+Admin
+0 1244 1244 1210550 31 1515438026
+admin
+0 18 18 8975 2 1515325177
+helpdesk_feedback
+0 838 838 7503315 9 1515344017
+# End Of Table - usernames

@@ -1,0 +1,93 @@
+{
+  "welcome" :"ברוכים הבאים" ,
+  "password" :"סיסמא",
+  "companies": "חברות",
+  "panels": "פנלס",
+  "charts":"תצוגה גרפית",
+  "loginPlace":"התחבר",
+  "passwordPlace":"סיסמה",
+  "loginToContinue": "התחבר להמשך",
+  "button" : "כניסה",
+  "adminHeader" :"דף מנהל",
+  "managerHeader" :"דף מנגר",
+  "managementList" : "תפריט ניהול",
+  "surveysList" : "רשימת סקרים",
+  "reportsList":"רשימת דיווחים",
+  "EditSurveyUser" : "ערוך סקר",
+  "CreateOrganization" : "צור אירגון",
+  "CreateProject":"צור תוכנית",
+  "EditOrganization": "צור אירגון",
+  "EditProject": "צור תכנית",
+  "CreateSurvey": "צור סקר",
+  "EditSurvey": "ערוך סקר",
+  "ViewSurvey":"צפה בסקר",
+  "ViewReports":"צפה בתגובות",
+  "ExportReports": "ייצוא דיווחים",
+  "projects": "מוקדים",
+  "project": "מוקד בריאות",
+  "newCompany":"חברה חדשה",
+  "addNewCompany" : "הוסף חברה חדשה",
+  "ShowSurveys":"הצג סקרים",
+  "NewProject" :"תוכנית חדשה",
+  "AddNewProject":"להוסיף תוכנית חדשה",
+  "ExportToExcel": "EXCEL",
+  "ExportToPDF":  "PDF",
+  "TimeLineChart": "גרף לאורך זמן",
+  "projectName": "שם תוכנית",
+  "projectManagerName": "שם מנהל התוכנית",
+  "addProject": "להוסיף תוכנית",
+  "LoadNewCustomers":"טען לקוחות חדשים",
+  "companyName": "שם של החברה",
+  "companyOwnerName": "שם של מנהל",
+  "attachLogo": "להוסיף לוגו",
+  "addCompany": "להוסיף חברה",
+  "telephoneNumber": "מספר טלפון",
+
+  "Statistics":"סטָטִיסטִיקָה",
+  "FromDate":"מתאריך",
+  "ToDate":"עד תאריך",
+  "WhatExtent":"?באיזו מידה אתה מרוצה מהשירות שקיבלת",
+  "ChooseFile":"לבחור קובץ חדש להעלאה",
+  "WaitTime": "?באיזו מידה אתה מרוצה מזמן ההמתנה",
+  "alertsBtn": "התראה",
+
+
+  "statistics":"ריכוז נתונים",
+
+
+  "usersIntroduced":"מספר רשומות שנקלטו",
+  "usersReceivedSms":"מספר זימונים שנשלחו",
+  "usersRespondented":"מספר סקרים שנענו",
+  "usersDidnotAnswerAll":"משתמשים לא ענו על כל",
+  "alertsStarted":"סה''כ התראות שנפתחו",
+  "responseRate":"שיעור מענה",
+
+  "nameValue":"ערך",
+  "nameParameter":"פָּרָמֶטֶר",
+
+  "quit": "יציאה"
+
+
+
+,
+  "FloatStyle":"float:right",
+
+
+  "choose": "בחר קובץ בבקשה",
+
+  "noOfRespondents": "מס' סקרים",
+  "professionalization": "מדד מקצועיות",
+  "personalTreatment": "מדד יחס אישי",
+
+  "serviceTime": "מדד זמן לקוח",
+  "calculatedScore": "ציון משוקלל",
+
+  "NPSMeasur": "NPS",
+
+  "loadMonthlyData": "טעינת נתונים חודשיים",
+  "teams": "צוותים",
+  "employeeName":  "שם נציג"
+
+
+
+}

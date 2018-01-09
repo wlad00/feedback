@@ -1,0 +1,137 @@
+<div class="WTF">
+    <div class="mainView" ng-controller="ChartsCtrl">
+        <div class="mdl-grid">
+            <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <div class="answers-card mdl-card mdl-shadow--2dp mdl-color--gray mdl-color-text--white">
+                    <div class="mdl-card__title mdl-card--expand"></div>
+                    <div class="mdl-card__actions">
+                        <span class="demo-card-image__filename">ענו לסקר</span><br>
+                        <span class="demo-card-image__filename">{{totalIntroduced}}</span>
+                    </div>
+                </div>
+            </div>
+            <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <!--вспомогательная плашка - потом нужно убрать-->
+                <!--<div><span>{{minToDate}}</span> - <span>{{maxToDate}}</span></div>-->
+
+                <div class="mdl-date-textfield mdl-js-date-textfield mdl-date-textfield--floating-label">
+                    <span class="calendar-icon">
+                        {{translation.ToDate}}
+                        <i class="material-icons light-blue">date_range</i>
+                    </span><br>
+                    <!--<input class="mdl-date-textfield__input"
+                           type="date"
+                           ng-model="dateEnd"
+                           value="{{userDate}}"
+                           min="{{minToDate}}"
+                           max="{{maxToDate}}"
+                           id="sample3">-->
+                    <md-datepicker class="mdl-date-textfield__input"
+                                   ng-model="userDate"
+                                   md-hide-icons="calendar"
+                                   min="{{minToDate}}"
+                                   max="{{maxToDate}}">
+                    </md-datepicker>
+                </div>
+            </div>
+            <div class="mdl-cell--4-col mdl-cell--4-col-tablet mdl-cell--4-col-phone">
+                <!--вспомогательная плашка - потом нужно убрать-->
+                <!--<div><span>{{minFromDate}}</span> - <span>{{maxFromDate}}</span></div>-->
+
+                <div class="mdl-date-textfield mdl-js-date-textfield mdl-date-textfield--floating-label">
+                    <span class="calendar-icon">
+                        {{translation.FromDate}}<i class="material-icons light-blue">date_range</i>
+                    </span><br>
+                    <!--<input class="mdl-date-textfield__input"
+                           min="{{minFromDate}}"
+                           max="{{maxFromDate}}"
+                           type="date"
+                           ng-model="dateStart"
+                           value="{{createDate}}"
+                           id="sample4">-->
+
+                    <md-datepicker class="mdl-date-textfield__input"
+                                   ng-model="createDate"
+                                   md-hide-icons="calendar"
+                                   min="{{minFromDate}}"
+                                   max="{{maxFromDate}}">
+                    </md-datepicker>
+                </div>
+            </div>
+        </div>
+        <div class="mdl-grid">
+            <div class="mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--3-col-phone ">
+                <span>
+                    <button class="mdl-button mdl-js-button mdl-button--primary  mdl-color-text--black" ng-click="exportToXLS()">
+                        <b>{{translation.ExportToExcel}}</b>
+                    </button>
+                </span>
+
+            </div>
+            <div class="mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--3-col-phone" id="divExportToPdf">
+                <button class="mdl-button mdl-js-button mdl-button--primary  mdl-color-text--black"
+                        id="buttonExportToPDF"
+                        ng-model="buttonExportToPDF"
+                        ng-click="exportToPDF()">
+                    <b>{{translation.ExportToPDF}}</b>
+                </button>
+                <!-- <a id="pdfMe">123</a> -->
+
+            </div>
+            <div class="mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--3-col-phone">
+                <button class="mdl-button mdl-js-button mdl-button--primary  mdl-color-text--black" ng-click="showStat()">
+                    <b>{{translation.Statistics}}</b>
+                </button>
+            </div>
+            <div class="mdl-cell--3-col mdl-cell--3-col-tablet mdl-cell--3-col-phone">
+                <button class="mdl-button mdl-js-button mdl-button--primary mdl-js-ripple-effect  mdl-color-text--black" ng-click="showtimeLineChart()">
+                    <b>{{translation.TimeLineChart}}</b>
+                </button>
+            </div>
+        </div>
+        <div ng-show="loginProcess" id="loader">
+            <div id="d1"></div>
+            <div id="d2"></div>
+            <div id="d3"></div>
+            <div id="d4"></div>
+            <div id="d5"></div>
+        </div>
+    </div>
+</div>
+
+
+<!-- Начало всех графиков -->
+<div id="toExportToPDF">
+    <!-- new block with new company -->
+
+    <div class="mdl-grid" id="gridedCharts"></div>
+    <div class="dikla-table" ng-controller="ChartsCtrl">
+        <table ng-if="!loginProcess && diklaProjectID " class="mdl-cell--6-col flat-table" id="DilkaTable">
+
+            <tbody>
+                <tr>
+                    <th>{{translation.NPSMeasur}} </th>
+                    <th>{{translation.calculatedScore}} </th>
+                    <th>{{translation.serviceTime}} </th>
+                    <th>{{translation.personalTreatment}} </th>
+                    <th>{{translation.professionalization}} </th>
+                    <th>{{translation.noOfRespondents}} </th>
+                    <th>{{translation.teams}}</th>
+                </tr>
+                <tr ng-repeat="group in groupsDikla">
+
+                    <td>{{ group.NPSMeasur }}</td>
+                    <td>{{ group.calculatedScore }}</td>
+                    <td>{{ group.serviceTime }}</td>
+                    <td>{{ group.personalTreatment }}</td>
+                    <td>{{ group.professionalization }}</td>
+                    <td>{{ group.noOfRespondents }}</td>
+                    <td class="pointer" ng-click="openDrillDown(group.name)">{{ group.name }}</td>
+                </tr>
+        </table>
+
+    </div>
+    <!-- login loader animation -->
+    <!-- end login loader animation -->
+
+</div><!--</div>-->

@@ -1,0 +1,14 @@
+<div>
+    <div>{{translation.statistics}}</div>
+
+    <table class="simple-little-table">
+        <tr>
+            <th>{{translation.nameParameter}}</th>
+            <th>{{translation.nameValue}}</th>
+        </tr>
+        <tr ng-repeat="(k, v) in stats">
+            <td>{{translation[k]}}</td>
+            <td>{{v}}</td>
+        </tr>
+    </table>
+</div>

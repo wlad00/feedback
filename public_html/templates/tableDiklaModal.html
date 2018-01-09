@@ -1,0 +1,23 @@
+<table class="flat-table">
+
+    <tbody>
+        <tr>
+            <th>{{translation.NPSMeasur}} </th>
+            <th>{{translation.calculatedScore}} </th>
+            <th>{{translation.serviceTime}} </th>
+            <th>{{translation.personalTreatment}} </th>
+            <th>{{translation.professionalization}} </th>
+            <th>{{translation.noOfRespondents}} </th>
+            <th>{{translation.employeeName}} </th>
+        </tr>
+        <tr ng-repeat="employee in employeesOfDikla">
+
+            <td>{{ employee.NPSMeasur }}</td>
+            <td>{{ employee.calculatedScore }}</td>
+            <td>{{ employee.serviceTime }}</td>
+            <td>{{ employee.personalTreatment }}</td>
+            <td>{{ employee.professionalization }}</td>
+            <td>{{ employee.noOfRespondents }}</td>
+            <td>{{ employee.name }}</td>
+        </tr>
+</table>

@@ -1,0 +1,112 @@
+
+
+
+<div class="mainView" ng-hide="showLoader" id="events"  ng-controller="EventsCtrl">
+
+
+<!------------------ TABLE EVENTS -------------------->
+
+
+    <div id="table-events" >
+
+        <h1 class="btn-lg btn-info">Events</h1>
+
+        <table class="table table-bordered">
+            <thead style="text-align: center">
+            <tr>
+                <th  class="col-xs-2">id</th>
+                <th  class="col-xs-6">title</th>
+                <th  class="col-xs-2">event_number</th>
+
+                <th class="col-xs-2">
+                    <button id="btn-add" class="btn btn-primary btn-xs" ng-click="addNew()">
+                        Add New  </button>
+                </th>
+            </tr>
+            </thead>
+
+            <tbody>
+
+            <tr ng-repeat="event in events | orderBy: '-id'"
+                ng-include="getIdHtml(event)"></tr>
+
+            </tbody>
+        </table>
+
+        <script type = "text/ng-template" id="view">
+            <td>{{event.id}}</td>
+            <td ng-click="toTableQuestionary(event.id, event.title)">{{event.title}}</td>
+            <td>{{event.event_number}}</td>
+            <td>
+                <button class="btn btn-default btn-xs btn-warning" ng-click="copyRow(event)">Edit</button>
+
+            </td>
+        </script>
+        <script type = "text/ng-template" id="edit">
+            <td>{{event.id}}</td>
+            <td>
+                <form class="formNone" ng-submit="saveData($index)">
+                    <input type="text" ng-model="editRow.title" />
+                </form>
+            </td>
+            <td>
+                <form class="formNone" ng-submit="saveData($index)">
+                    <input type="text" ng-model="editRow.event_number" />
+                </form>
+            </td>
+            <td>
+                <button class="btn btn-primary btn-xs" ng-click="saveData($index)"/>Save</button>
+                <button class="btn btn-default btn-xs btn-warning" ng-click="reset()"/>Cancel</button>
+
+            </td>
+        </script>
+    </div>
+
+    <!--------- TABLE QUESTIONARY CHECKBOX ------------->
+
+    <div id="table-questionary-checkbox" style="display: none;" >
+
+        <div class="clearfix" style="min-width: 200px; width: 50%; margin: 0 auto; ">
+            <h3 onclick="table_events()" class="btn-lg btn-info">{{event_title}}</h3>
+
+        </div>
+
+        <table class="table table-bordered">
+            <thead style="text-align: center">
+            <tr>
+                <th class="col-xs-1">id</th>
+                <th class="col-xs-9">QUESTIONNAIRE</th>
+                <th class="col-xs-2">IN Event</th>
+
+            </tr>
+            </thead>
+
+            <tbody>
+
+            <!--<tr ng-repeat="question in questions | orderBy: id: true"-->
+            <tr ng-repeat="q in questionary">
+                <td>{{q.id}}</td>
+                <td>{{q.title}}</td>
+                <td>
+                    <input type="checkbox"
+
+                           ng-model="q.inEvent" ng-true-value="'1'" ng-false-value="'0'"
+
+                           ng-click="saveCheckbox(q.id, q.inEvent)"
+
+                           style="width: 17px; height: 17px;"/>
+                </td>
+
+            </tr>
+
+            </tbody>
+        </table>
+
+
+    </div>
+
+</div>
+
+
+
+

@@ -1,0 +1,254 @@
+
+
+<div class="mainView" id="questionary" ng-hide="showLoader" >
+
+
+                <!---------------------------------------------------->
+                <!----------------- 1. QUESTIONARY1 ---------------------->
+                <!---------------------------------------------------->
+
+    <div id="table-questionary" ng-controller="QuestionaryCtrl">
+
+        <h1 class="btn-lg btn-info">Questionary</h1>
+
+        <table class="table table-bordered">
+            <thead style="text-align: center">
+            <tr>
+                <th class="col-xs-2">id</th>
+                <th class="col-xs-8">title</th>
+
+                <th class="col-xs-2">
+                    <button class="btn btn-primary btn-xs" ng-click="addNew()">
+                        Add New  </button>
+                </th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr ng-repeat="q in questionary | orderBy: id: true"
+                ng-include="getIdHtml(q)"></tr>
+
+            </tbody>
+        </table>
+
+        <script type = "text/ng-template" id="view-1">
+
+            <td >{{q.id}}</td>
+
+            <td ng-click="toSharedService(q.id, q.title)">{{q.title}}</td>
+
+            <td>
+                <button class="btn btn-default btn-xs btn-warning" ng-click="copyRow(q)">Edit</button>
+               <!-- <button class="btn btn-danger btn-xs btn-delete" ng-click="confirmDelete(q)">Delete
+                </button>-->
+            </td>
+        </script>
+        
+        <script type = "text/ng-template" id="edit-1">
+            <td>{{q.id}}</td>
+        <td>
+            <form class="formNone" ng-submit="saveData($index)">
+            <input type="text" ng-model="editRow.title" />
+            </form>
+        </td>
+            <td>
+            <button class="btn btn-primary btn-xs" ng-click="saveData($index)"/>Save</button>
+            <button class="btn btn-default btn-xs btn-danger" ng-click="reset()"/>Cancel</button>
+
+            </td>
+        </script>
+    </div>
+            <!-------------------------------------------------->
+            <!----------------- 2. QUESTIONS  ---------------------->
+            <!-------------------------------------------------->
+
+    <div id="table-questions" style="display: none" ng-controller="QuestionsCtrl">
+
+        <div class="clearfix" style="min-width: 200px; width: 50%; margin: 0 auto; ">
+        <h3 onclick="table_questionary()" class="btn-lg btn-info">{{title}}</h3>
+
+        </div>
+
+
+        <table class="table table-bordered">
+            <thead style="text-align: center">
+            <tr>
+                <th class="col-xs-1">id</th>
+                <th class="col-xs-4">QUESTION</th>
+                <th class="col-xs-1">type</th>
+                <th class="col-xs-1">questionNumber</th>
+                <th class="col-xs-1">coef</th>
+                <th class="col-xs-1">multiple</th>
+                <th class="col-xs-1">active</th>
+                <th class="col-xs-1">sort</th>
+
+                <th >
+                    <button class="btn btn-primary btn-xs" ng-click="addNew()">
+                        Add New  </button>
+                </th>
+            </tr>
+            </thead>
+
+            <tbody>
+
+            <!--<tr ng-repeat="question in questions | orderBy: id: true"-->
+            <tr ng-repeat="question in questions"
+                ng-include="getIdHtml(question)"></tr>
+
+            </tbody>
+        </table>
+
+        <!---------------- VIEW-2 ----------------------->
+
+        <script type = "text/ng-template" id="view-2">
+            <td>{{question.id}}</td>
+            <td  ng-class="styleFunction(question.type)"
+                    ng-click="toSharedService(question.id, question.title, question.type)">{{question.title}}</td>
+            <td>{{question.type}}</td>
+            <td>{{question.questionIndex}}</td>
+            <td>{{question.coef}}</td>
+
+            <td><input type="checkbox" style="opacity: 0.8; width: 15px; height: 15px;"
+                       ng-model="question.multiple" ng-true-value="'1'" ng-false-value="'0'"
+                       ng-click="saveCheckBox(question)"/></td>
+
+                        <!--onclick="return false"-->
+
+            <td><input type="checkbox" style="opacity: 0.8; width: 15px; height: 15px;"
+                         ng-model="question.active" ng-true-value="'1'" ng-false-value="'0'"
+                       ng-click="saveCheckBox(question)"/></td>
+                       <!--onclick="return false"/></td>-->
+
+            <td>{{question.sort}}</td>
+
+            <td>
+                <button class="btn btn-default btn-xs btn-warning" ng-click="copyRow(question)">Edit</button>
+            </td>
+        </script>
+
+        <!---------------- EDIT-2 ----------------------->
+
+        <script type = "text/ng-template" id="edit-2">
+
+            <td>{{question.id}}</td>
+
+            <td>
+                <form class="formNone" ng-submit="saveData()">
+                    <input type="text" ng-model="editRow.title" />
+                </form>
+            </td>
+            <td>
+                <select ng-model="editRow.type">
+                    <option value="text">text</option>
+                    <option value="digit">digit</option>
+                    <option value="yesno">yesno</option>
+                    <option value="dropdown">dropdown</option>
+                </select>
+            </td>
+
+            <td>
+                <form class="formNone" ng-submit="saveData()">
+                    <input type="text" ng-model="editRow.questionIndex" />
+                </form>
+            </td>
+
+            <td>
+                <form class="formNone" ng-submit="saveData()">
+                    <input type="text" ng-model="editRow.coef" />
+                </form>
+            </td>
+
+
+            <td>
+                <input type="checkbox"
+
+                       ng-model="editRow.multiple" ng-true-value="'1'" ng-false-value="'0'"
+
+                       style="width: 17px; height: 17px;"/>
+            </td>
+
+            <td>
+                <input type="checkbox"
+
+                        ng-model="editRow.active" ng-true-value="'1'" ng-false-value="'0'"
+
+                       style="width: 17px; height: 17px;"/>
+            </td>
+
+            <td>
+                <form class="formNone" ng-submit="saveData()">
+                    <input type="text" ng-model="editRow.sort" />
+                </form>
+            </td>
+
+            <td>
+                <button class="btn btn-primary btn-xs" ng-click="saveData()"/>Save</button>
+                <button class="btn btn-default btn-xs btn-danger" ng-click="reset()"/>Cancel</button>
+
+            </td>
+        </script>
+
+    </div>
+
+    <!-------------------------------------------------->
+    <!----------------- 3. ANSWERS ---------------------->
+    <!-------------------------------------------------->
+
+    <div id="table-answers" style="display: none" ng-controller="AnswersCtrl">
+
+        <div class="clearfix" style=" width: 200px; margin: 0 auto; ">
+            <h3 onclick="table_questionary()" class="btn-lg btn-info">{{titleQ}}</h3>
+        </div>
+        <div class="clearfix" style="min-width: 200px; width: 50%; margin: 0 auto; ">
+            <h3 onclick="table_questions()" style="margin-top: 0" class="btn-lg btn-success">{{title}}</h3>
+        </div>
+
+        <!--<h3 class="btn-warning btn-lg" style="margin-top: 0; min-width: 200px">{{title}}</h3>-->
+
+        <table class="table table-bordered">
+            <thead style="text-align: center">
+            <tr>
+                <th class="col-xs-2">id</th>
+                <th class="col-xs-8">ANSWER</th>
+
+                <th class="col-xs-2">
+                    <button class="btn btn-primary btn-xs" ng-click="addNew()">
+                        Add New  </button>
+                </th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr ng-repeat="answer in answers | orderBy: id: true"
+                ng-include="getIdHtml(answer)"></tr>
+
+            </tbody>
+        </table>
+
+        <script type = "text/ng-template" id="view-3">
+            <td>{{answer.id}}</td>
+            <td >{{answer.title}}</td>
+            <td>
+                <button class="btn btn-default btn-xs btn-warning" ng-click="copyRow(answer)">Edit</button>
+                <!--<button class="btn btn-danger btn-xs btn-delete" ng-click="confirmDelete(answer)">Delete
+                </button>-->
+            </td>
+        </script>
+        <script type = "text/ng-template" id="edit-3">
+            <td>{{answer.id}}</td>
+
+            <td>
+                <form class="formNone" ng-submit="saveData($index)">
+                    <input type="text" ng-model="editRow.title" />
+                </form>
+            </td>
+            <td>
+                <button class="btn btn-primary btn-xs" ng-click="saveData($index)"/>Save</button>
+                <button class="btn btn-default btn-xs btn-danger" ng-click="reset()"/>Cancel</button>
+
+            </td>
+        </script>
+
+    </div>
+
+</div>

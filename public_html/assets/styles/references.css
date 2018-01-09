@@ -1,0 +1,70 @@
+#table-lecturers{
+    margin-right:40px;
+    margin-left:40px;
+}
+
+#table-questionary,
+#table-questions,
+#table-answers,
+#table-events,
+#table-questionary-checkbox
+{
+    margin: 0 40px;
+}
+/*
+#events.table
+{
+    margin: 0 40px;
+}*/
+
+#questionary .table>thead>tr>th,
+#lecturers .table>thead>tr>th,
+#events .table>thead>tr>th
+{
+    text-align: center;
+}
+
+#table-lecturers td{
+    vertical-align: middle;
+    margin: 0 50px;
+}
+
+#questionary td{
+    text-align: left;
+    vertical-align: middle;
+}
+
+#table-events input,
+#table-lecturers input,
+#questionary input,
+#questionary select{
+    font-size: 14px;
+    padding: 0;
+    text-align: center;
+    border-width: 1px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+    height: 26px;
+}
+
+.formNone{
+    width: fit-content;
+    margin: 0 auto;
+    padding: 0;
+    background: #fafafa;
+    border: 1px solid #ebebeb;
+    box-shadow: none;
+    /*box-shadow: rgba(0,0,0,0.14902) 0px 1px 1px 0px, rgba(0,0,0,0.09804) 0px 1px 2px 0px;*/
+}
+
+.check-multiple input{
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+}
+
+.goTo{
+    background-color: #ffc01b;
+    text-decoration: underline;
+}
